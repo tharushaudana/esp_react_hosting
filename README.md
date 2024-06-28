@@ -4,7 +4,10 @@ This project demonstrates how to host a React web application using an ESP32 or 
 
 ## Getting Started
 
-To get started with this project, you'll need to install the LittleFS uploader plugin for the Arduino IDE. Follow the instructions in this [tutorial](https://randomnerdtutorials.com/arduino-ide-2-install-esp32-littlefs/) to install the plugin.
+To get started with this project, you'll need to install the LittleFS uploader plugin for the Arduino IDE. Follow the appropriate instructions based on your Arduino IDE version:
+
+- **Arduino IDE v2**: [Tutorial for installing ESP32 LittleFS](https://randomnerdtutorials.com/arduino-ide-2-install-esp32-littlefs/)
+- **Arduino IDE below v2**: [Tutorial for installing ESP8266 NodeMCU LittleFS](https://randomnerdtutorials.com/install-esp8266-nodemcu-littlefs-arduino/)
 
 ## Uploading Web Content
 
@@ -22,10 +25,6 @@ Once you have uploaded the web content to the ESP32 or ESP8266 file system, you 
 ## Usage
 
 To access the React application hosted on the ESP32 or ESP8266, connect to the microcontroller's Wi-Fi network and open a web browser. Enter the IP address of the microcontroller to access the web application.
-
-## Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more information.
 
 ## License
 
